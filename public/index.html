@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zul Fadli</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="bg-latar">
+
+    <!-- navbar -->
+    <section id="navbar" class="fixed top-0 z-20 w-full transition-all">
+        <nav class="nav flex flex-wrap justify-between p-4 md:px-16 relative">
+            <a href="#home" class="font-bold font-playfair text-2xl">Zul <span class="italic">Fadli</span></a>
+
+            <button class="btn-nav space-y-2 flex flex-col justify-start items-end
+            md:hidden
+            ">
+                <div class="w-8 h-0.5 bg-gray-600"></div>
+                <div class="w-6 h-0.5 bg-gray-600"></div>
+                <div class="w-4 h-0.5 bg-gray-600"></div>
+            </button>
+            
+            <ul class="nav-menu w-full bg-latar px-4 py-3 rounded-md flex flex-col top-16 left-0 transition-all absolute -z-10 -translate-y-[400px] shadow-lg font-semibold
+            
+            md:translate-y-0 md:w-fit md:flex-row md:static md:z-0 md:p-0 md:shadow-none md:w-[300px] md:justify-between md:bg-transparent
+            ">
+                <li class=""><a href="#about" class="">About</a></li>
+                <li class=""><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <!-- hero -->
+    <section id="home">
+        <div class="mx-auto mb-20 flex flex-col-reverse sm:flex-col-reverse flex-wrap md:flex-row">
+            <div class="sm:w-full md:w-1/2 md:h-screen p-4 sm:p-8 md:pt-20 lg:pt-32 lg:pl-16">
+                <p class="text-kuning font-nunito font-bold text-lg mb-4">FRONT-END DEV</p>
+                <h1 class="font-playfair text-6xl font-bold mb-4 max-w-[450px]">Hello, my name is Zul Fadli</h1>
+                <p class="parag max-w-[450px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deserunt sunt enim a quod nulla!</p>
+                <div class="flex">
+                    <a href="#contact" class="btn1">Contact Me</a>
+                    <a href="" class="btn2 ml-2">LinkedIn</a>
+                </div>
+            </div>
+            <div class="w-full h-60 md:h-fit md:w-1/2 md:aspect-[4/3] -z-20 relative">
+                <img src="img/hero.png" alt="Foto Zul Fadli" class="absolute top-0 right-0 max-h-80 md:max-h-[500px]">
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about flex flex-col md:flex-row-reverse mb-20">
+        <div class="image rounded-full overflow-hidden bg-kuning m-4 aspect-square w-3/4 sm:w-1/2 md:w-2/5 mx-auto">
+            <img src="img/about.png" alt="About Zul Fadli" class="w-full">
+        </div>
+        <div class="p-8 md:w-1/2 flex flex-col justify-center md:px-16">
+            <h2 class="font-bold text-4xl font-playfair mb-5">About Me</h2>
+            <p class="parag">Lorem  ipsum dolor sit amet consectetur adipisicing elit. Inventore animi, et porro nihil, dolorem, quibusdam dolor sed recusandae quaerat est ab. Autem at saepe quam voluptatum velit? Facilis, vero sint?</p>
+            <button class="btn1 w-fit">My Project</button>
+        </div>
+    </section>
+
+    <!-- prohjects -->
+    <section id="projects" class="projects mb-6">
+        <div class="title-section">
+            <h2>Projects</h2>
+            <div class="line"></div>
+        </div>
+        <div class="cards flex flex-col md:flex-row md:flex-wrap">
+            <div class="project-card">
+                <div class="image">
+                    <img src="img/project1.png" alt="Project 1">
+                </div>
+                <div class="desc">
+                    <h2>My First Portpolio</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis modi optio illo consequuntur doloribus totam velit quisquam.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="image">
+                    <img src="img/project2.png" alt="Project 1">
+                </div>
+                <div class="desc">
+                    <h2>BeMedical</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis modi optio illo consequuntur doloribus totam velit quisquam.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="image">
+                    <img src="img/project3.png" alt="Project 1">
+                </div>
+                <div class="desc">
+                    <h2>NB Natural Medicines</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis modi optio illo consequuntur doloribus totam velit quisquam.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="image">
+                    <img src="img/project4.png" alt="Project 1">
+                </div>
+                <div class="desc">
+                    <h2>StreetHub</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis modi optio illo consequuntur doloribus totam velit quisquam.</p>
+                    <button>View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="w-full md:max-w-[800px] mx-auto p-6 mb-4">
+            <div class="title-section">
+                <h2>Contact</h2>
+                <div class="line"></div>
+            </div>
+            <form action="" class="flex flex-col">
+                <label class="mb-2" for="name">Name</label>
+                <input class="inputan" type="text" id="name">
+                <label class="mb-2" for="email">Email</label>
+                <input class="inputan" type="email" id="email">
+                <label class="mb-2" for="message">Message</label>
+                <textarea class="rounded-md mb-4 p-2 focus:outline-kuning" id="message" cols="10" rows="10"></textarea>
+                <button class="btn1 w-fit self-end">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="pb-32 md:pb-64 bg-footer bg-cover">
+            <svg class="mx-auto" width="192" height="48" viewBox="0 0 192 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href="">
+                    <path d="M30 24C30 25.1867 29.6481 26.3467 28.9888 27.3334C28.3295 28.3201 27.3925 29.0892 26.2961 29.5433C25.1997 29.9974 23.9933 30.1162 22.8295 29.8847C21.6656 29.6532 20.5965 29.0818 19.7574 28.2426C18.9182 27.4035 18.3468 26.3344 18.1153 25.1705C17.8838 24.0067 18.0026 22.8003 18.4567 21.7039C18.9108 20.6075 19.6799 19.6705 20.6666 19.0112C21.6533 18.3519 22.8133 18 24 18C25.5907 18.0018 27.1158 18.6346 28.2406 19.7594C29.3654 20.8842 29.9982 22.4093 30 24ZM42.75 15.75V32.25C42.7468 35.0338 41.6396 37.7027 39.6711 39.6711C37.7027 41.6396 35.0338 42.7468 32.25 42.75H15.75C12.9662 42.7468 10.2973 41.6396 8.32889 39.6711C6.36044 37.7027 5.25318 35.0338 5.25 32.25V15.75C5.25318 12.9662 6.36044 10.2973 8.32889 8.32889C10.2973 6.36044 12.9662 5.25318 15.75 5.25H32.25C35.0338 5.25318 37.7027 6.36044 39.6711 8.32889C41.6396 10.2973 42.7468 12.9662 42.75 15.75ZM33 24C33 22.22 32.4722 20.4799 31.4832 18.9999C30.4943 17.5198 29.0887 16.3663 27.4442 15.6851C25.7996 15.0039 23.99 14.8257 22.2442 15.1729C20.4984 15.5202 18.8947 16.3774 17.636 17.636C16.3774 18.8947 15.5202 20.4984 15.1729 22.2442C14.8257 23.99 15.0039 25.7996 15.6851 27.4442C16.3663 29.0887 17.5198 30.4943 18.9999 31.4832C20.4799 32.4722 22.22 33 24 33C26.3861 32.9973 28.6738 32.0482 30.361 30.361C32.0482 28.6738 32.9973 26.3861 33 24ZM36 14.25C36 13.805 35.868 13.37 35.6208 13C35.3736 12.63 35.0222 12.3416 34.611 12.1713C34.1999 12.001 33.7475 11.9564 33.311 12.0432C32.8746 12.13 32.4737 12.3443 32.159 12.659C31.8443 12.9737 31.63 13.3746 31.5432 13.811C31.4564 14.2475 31.501 14.6999 31.6713 15.111C31.8416 15.5222 32.13 15.8736 32.5 16.1208C32.87 16.368 33.305 16.5 33.75 16.5C34.3467 16.5 34.919 16.2629 35.341 15.841C35.7629 15.419 36 14.8467 36 14.25Z" fill="#25282B"/>
+                </a>
+                <a href="">
+                    <path d="M77 7.72175C77 6.21837 78.2492 5 79.7906 5H112.209C113.751 5 115 6.21837 115 7.72175V40.2783C115 41.7816 113.751 43 112.209 43H79.7906C78.2492 43 77 41.7816 77 40.2783V7.72175ZM88.7396 36.8108V19.6514H83.0373V36.8108H88.7396ZM85.8896 17.3073C87.8775 17.3073 89.1149 15.9915 89.1149 14.3433C89.0792 12.6594 87.8799 11.3793 85.9276 11.3793C83.9754 11.3793 82.7 12.6617 82.7 14.3433C82.7 15.9915 83.9374 17.3073 85.8516 17.3073H85.8896ZM97.5461 36.8108V27.2276C97.5461 26.7146 97.5841 26.2016 97.7361 25.8359C98.147 24.8123 99.0851 23.7506 100.662 23.7506C102.726 23.7506 103.55 25.3229 103.55 27.6314V36.8108H109.252V26.9688C109.252 21.6962 106.441 19.2453 102.688 19.2453C99.6623 19.2453 98.3061 20.9078 97.5461 22.0786V22.138H97.5081C97.5207 22.1182 97.5334 22.0984 97.5461 22.0786V19.6514H91.8461C91.9174 21.2616 91.8461 36.8108 91.8461 36.8108H97.5461Z" fill="#25282B"/>
+                </a>
+                <a href="">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M147.131 12.1467C147.396 10.9686 148.046 9.91683 148.976 9.16349C149.906 8.41014 151.061 7.99992 152.25 8H183.75C184.939 7.99992 186.094 8.41014 187.024 9.16349C187.954 9.91683 188.604 10.9686 188.869 12.1467L168 25.104L147.131 12.1467ZM147 15.192V34.136L162.233 24.648L147 15.192ZM164.748 26.2133L147.501 36.952C147.927 37.8648 148.6 38.6358 149.441 39.1754C150.281 39.715 151.256 40.001 152.25 40H183.75C184.744 40.0002 185.718 39.7136 186.558 39.1736C187.399 38.6335 188.07 37.8622 188.496 36.9493L171.25 26.2107L168 28.2293L164.748 26.2107V26.2133ZM173.767 24.6507L189 34.136V15.192L173.767 24.648V24.6507Z" fill="#25282B"/>
+                </a>
+            </svg>
+            <p class="text-center font-nunito text-abu">Zul Fadli Ahmad | 2023</p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
